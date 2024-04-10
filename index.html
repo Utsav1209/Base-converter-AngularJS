@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body ng-app="myApp" ng-controller="myController">
+    <div class="container">
+        <h1 style="text-align: center;">Base Converter</h1>
+        <span>Decimal : </span>
+        <input type="text" placeholder="Decimal" ng-model="decimal">
+        <span>Binary : </span>
+        <input type="text" placeholder="Binary" ng-model="binary">
+        <span>Octal : </span>
+        <input type="text" placeholder="Octal" ng-model="octal">
+        <span>Hexa : </span>
+        <input type="text" placeholder="Hexa" ng-model="hexa">
+    </div>
+</body>
+
+</html>
